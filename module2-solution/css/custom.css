@@ -61,7 +61,17 @@ color: white
         margin-left: 20px;
         margin-right: 20px;
         display: inline-block;
+        margin-bottom: 19px;
         
+        }
+
+        .column{
+            background-color: rgb(148, 155, 153);
+
+    border: 3px solid black ;
+    margin-top: 19px; 
+
+
         }
     
 }
@@ -75,6 +85,7 @@ color: white
         display: grid;
          grid-template-columns: repeat(2, 1fr);
          column-gap: 19px;
+         row-gap: 19px;
         }
 
 }
